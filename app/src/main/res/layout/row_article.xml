@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardMaxElevation="7dp"
+    app:contentPadding="8dp"
+    android:background="@drawable/samirounded_bg"
+    android:layout_margin="5dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tvArticleNo"
+        android:text="N"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorDivider"
+        android:background="@drawable/rounded_bg_btn"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvArticleTitle"
+    android:text="@string/article_title"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:gravity="start"
+    android:textColor="@color/colorPrimary"
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvArticleByLine"
+            android:text="@string/byLine"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvArticleSection"
+                android:text="@string/article_section"
+                android:textSize="14sp"
+                android:gravity="start"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvArticlePublishedDate"
+                android:text="@string/article_date"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
+                android:drawablePadding="5dp"
+                android:textSize="14sp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

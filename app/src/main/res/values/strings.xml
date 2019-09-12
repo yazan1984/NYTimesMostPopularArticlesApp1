@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NY Times Most Popular Articles</string>
+    <string name="action_settings">Settings</string>
+    <string name="article_title">Article Title</string>
+    <string name="byLine">By :</string>
+    <string name="article_section">Section</string>
+    <string name="article_date">Date</string>
+    <string name="noInternet">There is now internet connection!</string>
+    <string name="abstracts">Abstract</string>
+    <string name="caption">Caption</string>
+    <string name="forDetails">For More Details Visit This Link :</string>
+    <string name="day">One Day</string>
+    <string name="search">Search</string>
+    <string name="this_week">Seven Days</string>
+    <string name="this_month">Thirty Days</string>
+    <string name="details">Details...</string>
+</resources>

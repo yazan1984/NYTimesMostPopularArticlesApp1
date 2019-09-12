@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAbstract"
+            android:text="@string/abstracts"
+            android:singleLine="false"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/tvArticleByLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@android:drawable/ic_menu_edit"
+            android:gravity="start|center_vertical"
+            android:text="@string/byLine"
+            android:textColor="@color/colorBlue"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgArticle"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/imgview"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvImgCaption"
+            android:text="@string/caption"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:gravity="start|center_vertical"
+            android:drawableStart="@android:drawable/ic_menu_info_details"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUrl"
+            android:text="@string/forDetails"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:textColor="@color/colorBlue"
+            android:layout_marginBottom="10dp"
+            />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

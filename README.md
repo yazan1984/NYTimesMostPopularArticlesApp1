@@ -68,5 +68,5 @@ We use [GITHUP](http://githup.com/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Yazan Aljayoussi** - *Initial work* - [PurpleBooth](https://github.com/yazan1984)
+* **Yazan Aljayoussi** - *Initial work* - [Yazan1984](https://github.com/yazan1984)
 
